@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="572.0" prefWidth="766.0" style="-fx-background-color: #993333;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sofresh.controller.MainController">
+   <children>
+      <ImageView fx:id="GunlukIsler" fitHeight="79.0" fitWidth="86.0" onMouseClicked="#gunlukClicked" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/home-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Siyahi" fitHeight="71.0" fitWidth="71.0" layoutX="4.0" layoutY="190.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/dd.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Siyahı" fitHeight="79.0" fitWidth="71.0" layoutX="4.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/33-dashboard-chart-report-annual-512.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Tanimlar" fitHeight="71.0" fitWidth="79.0" layoutX="4.0" layoutY="293.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/computer-user-icon-26.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="User" fitHeight="79.0" fitWidth="71.0" layoutX="4.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/user-icon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Logout" fitHeight="79.0" fitWidth="71.0" layoutY="481.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/logout-icon.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="8.0" layoutY="79.0" text="Günlük işlər" textFill="#fffdfd" />
+      <Label layoutX="18.0" layoutY="168.0" text="Hesabat" textFill="#fffdfd" />
+      <Label layoutX="25.0" layoutY="269.0" text="Siyahı" textFill="#fffdfd" />
+      <Label layoutX="20.0" layoutY="364.0" text="Tanımlar" textFill="#fffdfd" />
+      <Label layoutX="21.0" layoutY="457.0" prefHeight="17.0" prefWidth="63.0" text="İstifadəçi" textFill="#fffdfd" />
+      <Label layoutX="37.0" layoutY="544.0" prefHeight="17.0" prefWidth="31.0" text="Çıxış" textFill="#fffdfd" />
+   </children>
+</AnchorPane>

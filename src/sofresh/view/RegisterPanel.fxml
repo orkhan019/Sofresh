@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="413.0" prefWidth="675.0" style="-fx-background-color: #993333;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sofresh.controller.RegisterPanelController">
+   <children>
+      <TextField layoutX="14.0" layoutY="43.0" prefHeight="25.0" prefWidth="181.0" promptText="Müştəri Adı" />
+      <TextField layoutX="14.0" layoutY="86.0" prefHeight="25.0" prefWidth="181.0" promptText="Müştəri Soyadı" />
+      <TextField layoutX="14.0" layoutY="128.0" prefHeight="25.0" prefWidth="181.0" promptText="Mobil nömrə" />
+      <TextField layoutX="14.0" layoutY="168.0" prefHeight="25.0" prefWidth="181.0" promptText="Email" />
+      <TextField layoutX="14.0" layoutY="213.0" prefHeight="25.0" prefWidth="181.0" promptText="Adress" />
+      <TextField layoutX="14.0" layoutY="257.0" prefHeight="25.0" prefWidth="181.0" promptText="Endirim Kartı" />
+      <ComboBox layoutX="14.0" layoutY="299.0" prefHeight="25.0" prefWidth="181.0" promptText="Müştəri Qrupu" />
+      <TextArea layoutX="14.0" layoutY="340.0" prefHeight="51.0" prefWidth="181.0" promptText="Not" />
+      <Button fx:id="CancelBtn" layoutX="222.0" layoutY="353.0" mnemonicParsing="false" onAction="#actionCancel" prefHeight="32.0" prefWidth="83.0" text="Cancel" />
+      <Button fx:id="SaveBtn" layoutX="318.0" layoutY="353.0" mnemonicParsing="false" onAction="#actionSave" prefHeight="32.0" prefWidth="83.0" text="Save" />
+   </children>
+</AnchorPane>
